@@ -1,6 +1,6 @@
 # Start Grace's Hotdog Pin Store and log PaymentIntent in a .txt file. 
 
-0. Open Terminal (assuming Bash) and navigate to graceqi-stripe-project. If you do not have python3, pip3, flask, or stripe, do the following.
+0. Open Terminal (assuming Bash) and navigate to graceqi-stripe-project. If you do not have python3, pip3, flask, stripe, or go, do the following.
 ```
 ##install homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
@@ -13,6 +13,9 @@ pip3 install flask
 
 ##install stripe
 pip3 install stripe
+
+##install Go
+brew install go
 
 ```
 1. Run run-all.sh. stripe-cli may bounce you out to the browser to link with your Stripe account.
